@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white text-black py-2.5 px-5 flex flex-wrap md:justify-center items-center border-b border-gray-200 sticky top-0 transition-all duration-300 justify-between">
+    <header className="bg-white text-black py-2.5 px-5 flex flex-wrap md:justify-center items-center border-b border-gray-200 sticky top-0 transition-all duration-300 justify-between ">
       <div className="flex items-center justify-between md:w-auto">
         {/* Logo can be added here */}
         {/* <div className="logo">
@@ -59,7 +59,7 @@ const Header = () => {
 
       {/* CTA Button */}
       <div className="mt-4 cta-buttons md:mt-0">
-        <button className="donate border-none bg-[#C73938] text-white text-decoration-none py-2 px-4 font-bold tracking-wider uppercase cursor-pointer hover:bg-green-500 transition-colors duration-300" onClick={closeMenu}>DONATE</button>
+        <button className="donate border-none bg-[#2A5276] text-white text-decoration-none py-2 px-4 font-bold tracking-wider uppercase cursor-pointer hover:bg-green-500 transition-colors duration-300 rounded-md" onClick={closeMenu}>DONATE</button>
       </div>
     </header>
   );

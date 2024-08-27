@@ -3,7 +3,7 @@ import { FaRegStar } from 'react-icons/fa'; // Assuming you're using react-icons
 
 const ValueItem = ({ text }) => (
   <li className="flex items-center mb-4">
-    <FaRegStar className="text-yellow-400 mr-2" />
+    <FaRegStar className="mr-2 text-yellow-400" />
     <span>{text}</span>
   </li>
 );
@@ -11,13 +11,13 @@ const ValueItem = ({ text }) => (
 const CollegeValuesSection = () => {
   return (
     <div className="w-full py-12 mt-20">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="flex flex-col-reverse md:flex-row items-center">
-          <div className="w-full md:w-1/2 mt-8 md:mt-0 md:pr-8">
+      <div className="max-w-6xl px-4 mx-auto">
+        <div className="flex flex-col-reverse items-center md:flex-row">
+          <div className="w-full mt-8 md:w-1/2 md:mt-0 md:pr-8 h-[450px] ">
             <img 
-              src="https://www.falconcollege.com/wp-content/uploads/2023/12/Falcon-College-Values.webp"
-              alt="Falcon College Values"
-              className="w-full h-auto"
+              src="https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/367455901_695936475887266_3692020753916654816_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JeMfWciomEUQ7kNvgEe5iwu&_nc_ht=scontent-fra5-2.xx&oh=00_AYB8dd-ATTLAfeCWPfWtFifwk2xz9tepcvsAZPA13Zw-6A&oe=66D3498A"
+              alt="Elroy Foundation Values"
+              className="object-cover w-full h-auto"
             />
           </div>
           <div className="w-full md:w-1/2">
