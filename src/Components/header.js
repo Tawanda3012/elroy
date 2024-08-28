@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -12,8 +13,24 @@ const Header = () => {
     setIsOpen(false);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="bg-white text-black py-2.5 px-5 flex flex-wrap md:justify-center items-center border-b border-gray-200 sticky top-0 transition-all duration-300 justify-between ">
+    <header className={`bg-white text-black py-2.5 px-5 flex flex-wrap md:justify-center items-center border-b border-gray-200 sticky top-0 transition-all duration-300 justify-between z-50 ${isScrolled ? 'shadow-md' : ''}`}>
       <div className="flex items-center justify-between md:w-auto">
         {/* Logo can be added here */}
         {/* <div className="logo">
