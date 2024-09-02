@@ -114,7 +114,7 @@ const EnrollmentPage = () => {
             />
           </div>
           <h2 className="text-lg font-bold text-center">
-            Windview Primary 2019 Newsletter
+          Elroy Primary  Newsletter
           </h2>
         </a>
       </div>
