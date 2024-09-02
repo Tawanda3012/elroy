@@ -1,10 +1,10 @@
 import React from 'react'
-import SchoolEventsCalenda from "../Components/SchoolEventsCalenda"
+import EnrollmentPage from "../Components/EnrollmentPage"
 
 function AdmissionPage() {
   return (
-    <div>AdmissionPage
-      <SchoolEventsCalenda/>
+    <div>
+    <EnrollmentPage />
     </div>
   )
 }
