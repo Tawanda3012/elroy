@@ -64,6 +64,61 @@ const EnrollmentPage = () => {
       <div className="mb-4 text-gray-700">
         <strong className="text-blue-800">For enrolment</strong> please e-mail: 
       </div>
+      <div className="flex items-start justify-center p-6 space-x-4">
+      <div className="w-1/3 p-4 border">
+        <a
+          href="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/02/application-form-2019.docx"
+          download
+        >
+          <div className="flex justify-center mb-4">
+            <img
+              src="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/01/windviewprimaryschool.png"
+              alt="Windview Primary School Logo"
+              className="w-48 h-48"
+            />
+          </div>
+          <h2 className="text-lg font-bold text-center">
+            APPLICATION FORM
+          </h2>
+        </a>
+      </div>
+
+      <div className="w-1/3 p-4 border">
+        <a
+          href="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/02/uniform-package-2019.docx"
+          download
+        >
+          <div className="flex justify-center mb-4">
+            <img
+              src="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/01/windviewprimaryschool.png"
+              alt="Windview Primary School Logo"
+              className="w-48 h-48"
+            />
+          </div>
+          <h2 className="text-lg font-bold text-center">
+            UNIFORM PACKAGE
+          </h2>
+        </a>
+      </div>
+
+      <div className="w-1/3 p-4 border">
+        <a
+          href="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/02/newsletter-1-of-2019final.docx"
+          download
+        >
+          <div className="flex justify-center mb-4">
+            <img
+              src="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/01/windviewprimaryschool.png"
+              alt="Windview Primary School Logo"
+              className="w-48 h-48"
+            />
+          </div>
+          <h2 className="text-lg font-bold text-center">
+            Windview Primary 2019 Newsletter
+          </h2>
+        </a>
+      </div>
+    </div>
     </div>
   );
 };
