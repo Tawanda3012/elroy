@@ -1,5 +1,6 @@
 import React from "react";
-import Footer from '../Components/Footer'
+import Footer from '../Components/Footer';
+import SchoolEventsCalenda from "../Components/SchoolEventsCalenda"
 
 const AboutUsPage = () => {
   return (
@@ -167,6 +168,10 @@ const AboutUsPage = () => {
                   </a>
                 </li>
               </ul>
+            </div>
+            <div className="p-6 mt-5 bg-gray-100 rounded-lg">
+              <h4 className="mb-4 text-xl font-bold">Calendar</h4>
+              <SchoolEventsCalenda/>
             </div>
           </aside>
         </div>

@@ -1,8 +1,11 @@
 import React from 'react'
+import SchoolEventsCalenda from "../Components/SchoolEventsCalenda"
 
 function AdmissionPage() {
   return (
-    <div>AdmissionPage</div>
+    <div>AdmissionPage
+      <SchoolEventsCalenda/>
+    </div>
   )
 }
 

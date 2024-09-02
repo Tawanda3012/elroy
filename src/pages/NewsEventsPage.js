@@ -1,6 +1,7 @@
 import React from 'react';
 import NewsArticle from "../Components/NewsArticle";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
+import SchoolEventsCalenda from "../Components/SchoolEventsCalenda"
 
 
 
@@ -13,7 +14,7 @@ const NewsEventsPage = ({
   return (
     <div>
       <header
-        className="bg-cover bg-center relative h-64 md:h-96"
+        className="relative h-64 bg-center bg-cover md:h-96"
         style={{ backgroundImage: `url(${backgroundImage})` }}
         role="banner"
         data-interchange="[, small], [, medium], [, large], [, xlarge]"
@@ -23,18 +24,21 @@ const NewsEventsPage = ({
         data-events="resize"
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" /> {/* Overlay for better text visibility */}
-        <div className="container mx-auto px-4 h-full flex flex-col justify-center items-center relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2 text-white">{title}</h1>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white">{subtitle}</h2>
-          <div className="breadcrumb-container text-white">
+        <div className="container relative z-10 flex flex-col items-center justify-center h-full px-4 mx-auto">
+          <h1 className="mb-2 text-4xl font-bold text-white md:text-5xl">{title}</h1>
+          <h2 className="mb-4 text-2xl font-semibold text-white md:text-3xl">{subtitle}</h2>
+          <div className="text-white breadcrumb-container">
             <div className="row">
               {/* Add breadcrumb content here if needed */}
             </div>
           </div>
         </div>
       </header>
-      <div className="main-wrap flex justify-around flex-wrap mt-20">
+      <div className="flex flex-wrap justify-around mt-20 main-wrap">
        <NewsArticle/>
+       <div className='mt-5' >
+        <SchoolEventsCalenda className=''/>
+       </div>
       </div>
       <Footer/>
     </div>
