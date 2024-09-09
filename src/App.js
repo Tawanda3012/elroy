@@ -7,8 +7,8 @@ import SocialMediaBar from "./Components/SocialMediaBar";
 import Header from "./Components/header";
 import ContactPage from "./pages/ContactPage";
 import AdmissionPage from "./pages/AdmissionPage";
-import InstructionPage from "./pages/InstructionPage";
-import ResourcesPage from "./pages/ResourcesPage";
+// import InstructionPage from "./pages/InstructionPage";
+// import ResourcesPage from "./pages/ResourcesPage";
 import NewsEventsPage from "./pages/NewsEventsPage";
 // import Footer from "./components/Footer";
 
@@ -32,9 +32,9 @@ function App() {
         <Route path="/about" element={<Layout><AboutUsPage /></Layout>} />
         <Route path="/admissions" element={<Layout><AdmissionPage /></Layout>} />
         <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
-        <Route path="/instruction" element={<Layout><InstructionPage /></Layout>} />
+        {/* <Route path="/instruction" element={<Layout><InstructionPage /></Layout>} /> */}
         <Route path="/news" element={<Layout><NewsEventsPage /></Layout>} />
-        <Route path="/resources" element={<Layout><ResourcesPage /></Layout>} />
+        {/* <Route path="/resources" element={<Layout><ResourcesPage /></Layout>} /> */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>

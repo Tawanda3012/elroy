@@ -8,6 +8,7 @@ import OurEthosSection from "../Components/OurEthosSection";
 import CollegeValuesSection from "../Components/CollegeValuesSection";
 import Footer from "../Components/Footer";
 import LatestNewsAndEvents from "../Components/LatestNewsAndEvents";
+import WelcomeSection from "../Components/WelcomeSection"
 
 const Hompepage = () => {
   const settings = {
@@ -118,7 +119,8 @@ const Hompepage = () => {
           ))}
         </Slider>
       </div>
-      <section className="py-10 section-container">
+      <WelcomeSection/>
+      {/* <section className="py-10 section-container">
         <div className="container px-4 mx-auto">
           <div className="flex flex-col items-start space-y-6 lg:flex-row lg:space-y-0 lg:space-x-10">
             <div className="flex-1">
@@ -174,7 +176,7 @@ const Hompepage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="min-h-screen px-4 py-12 bg-gray-100 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
@@ -296,9 +298,11 @@ const Hompepage = () => {
       <h2 id="vision" className="mt-20 mb-4 text-3xl font-bold text-center">
         Our Vision
       </h2>
+   
 
       <CollegeValuesSection />
       <LatestNewsAndEvents />
+   
       <Footer />
     </div>
   );
