@@ -10,26 +10,26 @@ const ValueItem = ({ text }) => (
 
 const CollegeValuesSection = () => {
   return (
-    <div className="w-full py-12 mt-20">
+    <div className="w-full py-12 ">
       <div className="max-w-6xl px-4 mx-auto">
-        <div className="flex flex-col-reverse items-center md:flex-row">
-          <div className="w-full mt-8 md:w-1/2 md:mt-0 md:pr-8 h-[450px] ">
-            <img 
-              src="https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/367455901_695936475887266_3692020753916654816_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JeMfWciomEUQ7kNvgEe5iwu&_nc_ht=scontent-fra5-2.xx&oh=00_AYB8dd-ATTLAfeCWPfWtFifwk2xz9tepcvsAZPA13Zw-6A&oe=66D3498A"
-              alt="Elroy Foundation Values"
-              className="object-cover w-full h-auto"
-            />
-          </div>
-          <div className="w-full md:w-1/2">
-            <ul className="list-none">
-              <ValueItem text="Vital, disciplined and persevering in body" />
-              <ValueItem text="Curious, enthusiastic and fair in thinking" />
-              <ValueItem text="Sensitive, helpful and respectful in relationships" />
-              <ValueItem text="Humble, honest and wise in leadership" />
-              <ValueItem text="Cheerful, confident and generous in spirit" />
-            </ul>
-          </div>
-        </div>
+      <div className="flex flex-col-reverse items-center md:flex-row">
+  <div className="w-full mt-8 md:w-1/2 md:mt-0 md:pr-8 h-[250px] flex items-center justify-center">
+    <img 
+      src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/369856174_695931739221073_2852282382575580093_n.jpg?stp=c0.150.913.913a_dst-jpg_s206x206&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_ohc=z8YJqo9-k0YQ7kNvgFPhSZz&_nc_ht=scontent-mad1-1.xx&oh=00_AYBTMsfBgR78sDANEzbzKDKp6wo3PaZJxwnxJmA8qykISA&oe=66E9D70B"
+      alt="Elroy Foundation Values"
+      className="object-contain w-full h-full"
+    />
+  </div>
+  <div className="w-full md:w-1/2">
+    <ul className="list-none">
+      <ValueItem text="To provide holistic learning opportunity to all" />
+      <ValueItem text="To strive for academic excellence in holistic learning, becoming the best in the community and to God." />
+      <ValueItem text="Christian education is the backbone of our conceptual framework." />
+      <ValueItem text="Each child is a unique individual who fully develops at his/her own natural pace depending on unique family environment and the level of support from the school and at home." />
+      <ValueItem text="Cheerful, confident and generous in spirit" />
+    </ul>
+  </div>
+</div>
       </div>
     </div>
   );

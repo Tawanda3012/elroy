@@ -26,24 +26,24 @@ const HoverBoxContainer = () => {
       <HoverBox 
         title="Campus Life"
         link="https://www.stgeorges.co.zw/our-student-life/"
-        backgroundImage="https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/367432330_695931755887738_7566092391133351380_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kIJ7HlV8h0sQ7kNvgFs27FL&_nc_ht=scontent.fhre2-2.fna&oh=00_AYAD49e5vfEHp5VyZS5ivy2N2Cd0XCwRS5H0gDBi42A6DA&oe=66CF8AC8"
+        backgroundImage="https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/367459103_695936412553939_8317097444518948852_n.jpg?stp=c216.0.864.864a_dst-jpg_s206x206&_nc_cat=108&ccb=1-7&_nc_sid=50ad20&_nc_ohc=ABb6lqJvrUcQ7kNvgHjyyDT&_nc_ht=scontent-mad2-1.xx&oh=00_AYBitrPqV0eczBPtfqNVdWtvFtSgRfOI3e3Y-h-EiDWS_A&oe=66E9D180"
       />
       <HoverBox 
         title="Sports"
         link="https://www.stgeorges.co.zw/sport-at-a-glance/"
-        backgroundImage="https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/424599617_794323522715227_1705046749253830577_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9r5fNSFDlKIQ7kNvgGlySjt&_nc_ht=scontent.fhre2-2.fna&oh=00_AYCvIF6X7gXErb9-pCdoJk4lJ56S5WAUtRb2p1LInoW9gg&oe=66CF8E9D"
+        backgroundImage="https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/367473213_695936289220618_6061502960364702976_n.jpg?stp=c0.143.864.864a_dst-jpg_s206x206&_nc_cat=108&ccb=1-7&_nc_sid=50ad20&_nc_ohc=3w3aPnck4uEQ7kNvgHC1rDp&_nc_ht=scontent-mad2-1.xx&_nc_gid=ASRl9wbUZqay6A5UFh8xuoD&oh=00_AYCTwf7ENmC_sXTd_eAzDLhVyiQR2BcXvGmS02qSk7XPkA&oe=66E9D83F"
       />
     </div>
     <div className="flex flex-col w-full md:w-1/2 ">
       <HoverBox 
         title="Campus Life"
         link="https://www.stgeorges.co.zw/our-student-life/"
-        backgroundImage="https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/367432330_695931755887738_7566092391133351380_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kIJ7HlV8h0sQ7kNvgFs27FL&_nc_ht=scontent.fhre2-2.fna&oh=00_AYAD49e5vfEHp5VyZS5ivy2N2Cd0XCwRS5H0gDBi42A6DA&oe=66CF8AC8"
+        backgroundImage="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/367454869_695931789221068_4838954063985536553_n.jpg?stp=c228.0.913.913a_dst-jpg_s206x206&_nc_cat=101&ccb=1-7&_nc_sid=50ad20&_nc_ohc=tnw8N4C1kB4Q7kNvgFEm244&_nc_ht=scontent-mad1-1.xx&_nc_gid=ASRl9wbUZqay6A5UFh8xuoD&oh=00_AYAfs8ilcLtEi-t3CUiZ0Fdg2X7IkNPbKbJ4D-aXuMJA0A&oe=66E9E4B4"
       />
       <HoverBox 
         title="Sports"
         link="https://www.stgeorges.co.zw/sport-at-a-glance/"
-        backgroundImage="https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/424599617_794323522715227_1705046749253830577_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9r5fNSFDlKIQ7kNvgGlySjt&_nc_ht=scontent.fhre2-2.fna&oh=00_AYCvIF6X7gXErb9-pCdoJk4lJ56S5WAUtRb2p1LInoW9gg&oe=66CF8E9D"
+        backgroundImage="https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/367457266_695936382553942_1240451291122721671_n.jpg?stp=c216.0.864.864a_dst-jpg_s206x206&_nc_cat=111&ccb=1-7&_nc_sid=50ad20&_nc_ohc=oxjTg7G8svoQ7kNvgG5UtfF&_nc_ht=scontent-mad2-1.xx&oh=00_AYBGa9G5ZXFSYkV_i_ACKDERGwyR2DCi75nBDWhXe-JKKw&oe=66E9BC08"
       />
     </div>
     </div>

@@ -28,7 +28,7 @@ const Hompepage = () => {
       description:
         "Sci High is an open-enrollment school, accepting all students from across New Orleans, specifically those with an interest in STEM careers for our shared future.",
       image:
-        "https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/424599617_794323522715227_1705046749253830577_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9r5fNSFDlKIQ7kNvgGlySjt&_nc_ht=scontent.fhre2-2.fna&oh=00_AYCvIF6X7gXErb9-pCdoJk4lJ56S5WAUtRb2p1LInoW9gg&oe=66CF8E9D",
+        "https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/367432330_695931755887738_7566092391133351380_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_HdsR5vbbBEQ7kNvgFjoVhW&_nc_ht=scontent-mad1-1.xx&_nc_gid=AYyT8TECI_yPINoSzAUSlwb&oh=00_AYDmgrzAA_CWE5ZMcddgP9yQYUEh-0n258Bh2ShW6Hol0w&oe=66E9E8C8",
       link: "https://noscihigh.org/enroll",
     },
     {
@@ -36,7 +36,7 @@ const Hompepage = () => {
       description:
         "Our city will grow stronger when every New Orleanian can contribute to our wellbeing and innovation through the tools of math and science.",
       image:
-        "https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/367461902_695936319220615_6728390917095706423_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=F7xOE6Srp70Q7kNvgH-Rc4K&_nc_ht=scontent.fhre2-2.fna&oh=00_AYAOxQCq3sj5NPlU4Sa8_gjUHez9_pAPNiLg0ezdH0qZ-g&oe=66CFA2AB",
+        "https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/310875352_477171764430406_5450391110969048992_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=HCdvB98DFW0Q7kNvgExhXGO&_nc_ht=scontent-mad1-1.xx&_nc_gid=A8d3I4ZxgePrZU-y0j1QXUS&oh=00_AYASE37ssIYzpUCGfrCeKmZPNvEf4YOabShe3EHNgxoMWQ&oe=66E9D6B5",
       link: "/About",
     },
     {
@@ -44,7 +44,7 @@ const Hompepage = () => {
       description:
         "We open the doors of opportunity in these fields, guiding our students as they imagine the possibilities for our shared future.",
       image:
-        "https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/367432330_695931755887738_7566092391133351380_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kIJ7HlV8h0sQ7kNvgFs27FL&_nc_ht=scontent.fhre2-2.fna&oh=00_AYAD49e5vfEHp5VyZS5ivy2N2Cd0XCwRS5H0gDBi42A6DA&oe=66CF8AC8",
+        "https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/367455901_695936475887266_3692020753916654816_n.jpg?stp=c216.0.864.864a_dst-jpg_s206x206&_nc_cat=107&ccb=1-7&_nc_sid=50ad20&_nc_ohc=apkkJYXWM-QQ7kNvgGWxCgj&_nc_ht=scontent-mad1-1.xx&oh=00_AYCbSSCM_kR2FzqubED7ap6unvFUASnC_HydSDV1YHMf0Q&oe=66E9B30A",
       link: "/Why-Sci-High",
     },
     {
@@ -74,7 +74,7 @@ const Hompepage = () => {
         <div className="mb-4">{icon}</div>
         <h3 className="mb-2 text-xl font-semibold text-center">{title}</h3>
         <p className="mb-4 text-center text-gray-600">{description}</p>
-        <span className="inline-flex items-center font-semibold text-green-600">
+        {/* <span className="inline-flex items-center font-semibold text-green-600">
           Read More
           <svg className="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
             <path
@@ -83,7 +83,7 @@ const Hompepage = () => {
               clipRule="evenodd"
             />
           </svg>
-        </span>
+        </span> */}
       </div>
     </a>
   );
@@ -98,7 +98,7 @@ const Hompepage = () => {
                 className="w-full h-screen bg-center bg-cover sliderItemImage"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="absolute inset-0 flex items-center ">
+                <div className="absolute inset-0 flex items-center md:mt-[450px] mt-[600px] ">
                   <div className="w-full max-w-lg p-4 text-white bg-black bg-opacity-50 caption">
                     <h2 className="mb-4 text-3xl font-bold text-left">
                       {slide.title}
@@ -181,10 +181,10 @@ const Hompepage = () => {
       <div className="min-h-screen px-4 py-12 bg-gray-100 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 text-center">
-            <span className="inline-block px-3 py-1 mb-2 text-sm font-semibold text-black rounded-full bg-[#006494]">
+            <span className="inline-block px-3 py-3 mb-10 text-sm font-semibold text-black rounded-full bg-[#006494]">
               Learning brought to life
             </span>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            <h2 className="mb-10 text-3xl font-extrabold text-gray-900 sm:text-4xl">
               At Elroy Foundation, learning is at the core
               <br /> of everything we do
             </h2>
@@ -200,25 +200,25 @@ const Hompepage = () => {
             <Card
               icon={<School />}
               title="Education"
-              description="Lusitania offers Cambridge Primary / Checkpoint assessment and syllabi content in English, Mathematics and Science."
+              description="Elroy Foundation offers a holistic Christian education, integrating Cambridge Primary / Checkpoint assessment with our unique curriculum. We focus on core subjects like English, Mathematics, and Science, while nurturing each child's individual talents."
               link="https://lusitaniaprimary.co.zw/lusitania-primary-school-curriculum/"
             />
             <Card
               icon={<Activity />}
               title="Activities"
-              description="For those with a passion for visual arts, our Culture Department offers a diverse range of artistic disciplines, including drawing..."
+              description="Our diverse range of activities supports holistic development. From arts and crafts to sports and music, we provide opportunities for students to explore their interests, set goals, and grow personally outside the classroom."
               link="https://lusitaniaprimary.co.zw/lusitania-primary-school-culture/"
             />
             <Card
               icon={<Users />}
               title="Staff"
-              description="At Elroy Foundation, teamwork is everything. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut..."
+              description="At Elroy Foundation, our dedicated team embodies our Christian values and commitment to excellence. Our educators create a supportive environment where each child can develop at their own pace, fostering both academic growth and character development."
               link="https://lusitaniaprimary.co.zw/lusitania-primary-school-our-team/"
             />
             <Card
               icon={<Calendar />}
               title="Events"
-              description="Check out or calendar of events, which include Sports, Academic, Field Trips, Carnavals, Clubs, Choirs, and many more."
+              description="Join us for a variety of events that showcase our students' achievements and bring our community together. From academic exhibitions to sports days, cultural performances to parent-teacher meetings, our calendar reflects our commitment to holistic education."
               link="https://lusitaniaprimary.co.zw/event/"
             />
           </div>
@@ -244,7 +244,7 @@ const Hompepage = () => {
     className="bg-center bg-cover h-[530px]"
     style={{
       backgroundImage:
-        "url('https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/367432330_695931755887738_7566092391133351380_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kIJ7HlV8h0sQ7kNvgFs27FL&_nc_ht=scontent.fhre2-2.fna&oh=00_AYAD49e5vfEHp5VyZS5ivy2N2Cd0XCwRS5H0gDBi42A6DA&oe=66CF8AC8')",
+        "url('https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/367461902_695936319220615_6728390917095706423_n.jpg?stp=c216.0.864.864a_dst-jpg_s206x206&_nc_cat=104&ccb=1-7&_nc_sid=50ad20&_nc_ohc=2oyAGCd98XEQ7kNvgGWpl9q&_nc_ht=scontent-mad2-1.xx&_nc_gid=ASRl9wbUZqay6A5UFh8xuoD&oh=00_AYCTLL00Y3TO69S9-xvwqv2yZ3p4Tt4DyGf2gTkgEMx8Gg&oe=66E9C86B')",
     }}
   >
     <div className="absolute inset-0 flex flex-col justify-end text-white bg-black bg-opacity-50">
@@ -255,7 +255,7 @@ const Hompepage = () => {
         >
           <div className="ha-hover-box-main">
             <div className="flex w-full ha-hover-box-wrapper bg-red">
-              <div className="flex flex-col items-start justify-center h-full transition-opacity duration-200 ease-in-out delay-100 bg-red-700 ha-hover-box-content z-99">
+              <div className="flex flex-col items-start justify-center h-full transition-opacity duration-200 ease-in-out delay-100 ha-hover-box-content z-99">
                 <a
                   className="text-lg font-semibold ha-hover-sub-title"
                   style={{ textAlign: "left" }}
@@ -276,6 +276,8 @@ const Hompepage = () => {
         <HoverBoxContainer />
       </div>
 
+    
+      <OurEthosSection />
       <div className="w-full py-12 mt-20 text-center bg-transparent">
         <div className="max-w-5xl px-4 mx-auto">
           <div className="w-full">
@@ -286,7 +288,7 @@ const Hompepage = () => {
             </div>
             <div className="text-lg">
               <p className="text-center">
-                Falcon College aims to be a{" "}
+                Elroy Foundation College aims to be a{" "}
                 <strong>leading Southern African centre</strong> of academic,
                 cultural and sporting excellence for young people.
               </p>
@@ -294,10 +296,6 @@ const Hompepage = () => {
           </div>
         </div>
       </div>
-      <OurEthosSection />
-      <h2 id="vision" className="mt-20 mb-4 text-3xl font-bold text-center">
-        Our Vision
-      </h2>
    
 
       <CollegeValuesSection />

@@ -9,7 +9,7 @@ const AboutUsPage = () => {
       <div className="relative w-full h-screen bg-[#8299ae] overflow-hidden flex items-center justify-center">
         <div className="container relative z-10 flex flex-col items-center px-4 mx-auto">
           <img
-            src="//www.whitestoneschool.co.zw/wp-content/uploads/2023/07/Logo-800px.png"
+            src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/302021468_449688623845387_5709386479367275880_n.jpg?stp=dst-jpg_s206x206&_nc_cat=103&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=2S_m8iGXHBwQ7kNvgHeWo0p&_nc_ht=scontent-mad1-1.xx&_nc_gid=AwyTVvIy2wJjpuoVqW-5ma5&oh=00_AYDx1pPuZeR38cwiAstK0R5ttAL9ENBl-A3p6u41d-pFyg&oe=66E9CD03"
             alt="Logo"
             className="w-32 h-auto mb-6"
           />
@@ -21,7 +21,7 @@ const AboutUsPage = () => {
           <div className="flex items-center mb-6">
             <div className="bg-white h-0.5 w-24 sm:w-32 md:w-40"></div>
             <img
-              src="//www.whitestoneschool.co.zw/wp-content/uploads/revslider/admissions/shrike.png"
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/302021468_449688623845387_5709386479367275880_n.jpg?stp=dst-jpg_s206x206&_nc_cat=103&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=2S_m8iGXHBwQ7kNvgHeWo0p&_nc_ht=scontent-mad1-1.xx&_nc_gid=AwyTVvIy2wJjpuoVqW-5ma5&oh=00_AYDx1pPuZeR38cwiAstK0R5ttAL9ENBl-A3p6u41d-pFyg&oe=66E9CD03"
               alt="Shrike"
               className="w-10 h-auto mx-4"
             />
@@ -133,7 +133,7 @@ const AboutUsPage = () => {
           <aside className="w-full mt-8 lg:w-1/3 lg:mt-0">
             <div className="mb-8">
               <img
-                src="https://www.whitestoneschool.co.zw/wp-content/uploads/2023/07/Main-Logo-800px-bt-300x268.png"
+                src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/310808822_477171704430412_61070650227379668_n.jpg?stp=c175.0.864.864a_dst-jpg_s206x206&_nc_cat=102&ccb=1-7&_nc_sid=50ad20&_nc_ohc=gI2nJTw9pswQ7kNvgH2Bl5Y&_nc_ht=scontent-mad1-1.xx&oh=00_AYArP67whmkQL2QDG0-FgPxE1txylK7RXeinro6vDxd6JA&oe=66E9BFF0"
                 alt="School Logo"
                 className="w-full max-w-xs mx-auto"
               />
