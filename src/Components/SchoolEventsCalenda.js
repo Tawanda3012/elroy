@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { parseISO } from 'date-fns';
-import { Calendar, dateFnsLocalizer } from 'react-big-calendar';
+import { Calendar, dateFnsLocalizer, Views } from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import { format, parse, startOfWeek, getDay } from 'date-fns';
 import enUS from 'date-fns/locale/en-US';
@@ -39,6 +39,24 @@ const SchoolEventsCalendar = () => {
     },
   ]);
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const getCalendarView = () => {
+    if (windowWidth < 768) {
+      return Views.AGENDA;
+    } else if (windowWidth < 1024) {
+      return Views.DAY;
+    } else {
+      return Views.MONTH;
+    }
+  };
+
   return (
     <div className="p-4">
       <Calendar
@@ -46,7 +64,17 @@ const SchoolEventsCalendar = () => {
         events={events}
         startAccessor="start"
         endAccessor="end"
-        style={{ height: 500 }}
+        style={{ height: windowWidth < 768 ? 400 : 500 }}
+        view={getCalendarView()}
+        views={[Views.MONTH, Views.WEEK, Views.DAY, Views.AGENDA]}
+        toolbar={true}
+        eventPropGetter={(event) => ({
+          className: 'text-sm p-1 rounded',
+          style: {
+            backgroundColor: '#3174ad',
+            color: 'white',
+          },
+        })}
       />
     </div>
   );
