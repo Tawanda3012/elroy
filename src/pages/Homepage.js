@@ -98,7 +98,7 @@ const Hompepage = () => {
                 className="w-full h-screen bg-center bg-cover sliderItemImage"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="absolute inset-0 flex items-center md:mt-[450px] mt-[600px] ">
+                <div className="absolute inset-0 flex items-center md:mt-[350px] mt-[600px] ">
                   <div className="w-full max-w-lg p-4 text-white bg-black bg-opacity-50 caption">
                     <h2 className="mb-4 text-3xl font-bold text-left">
                       {slide.title}
