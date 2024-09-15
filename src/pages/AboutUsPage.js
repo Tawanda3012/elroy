@@ -76,14 +76,14 @@ const AboutUsPage = () => {
             <div className="flex flex-col mb-8 md:flex-row">
               <div className="w-full mb-4 md:w-1/2 md:pr-4 md:mb-0">
                 <img
-                  src="https://www.whitestoneschool.co.zw/wp-content/uploads/2015/03/10499424_10152339830708386_7656123844257764330_o.jpg"
+                  src="https://scontent.fhre1-2.fna.fbcdn.net/v/t39.30808-6/367496869_695931869221060_3697969838340826013_n.jpg?stp=c348.0.823.823a_dst-jpg_s206x206&_nc_cat=109&ccb=1-7&_nc_sid=50ad20&_nc_ohc=0CQW-yeL4PkQ7kNvgGRKn2_&_nc_ht=scontent.fhre1-2.fna&_nc_gid=Akb2B1ocgnkufGKXxVKlKKu&oh=00_AYCFd2BgUzmzCyGQWy9O1Ccrcy8Ug_ortOqpb5w4Ud_wBA&oe=66EC5F6A"
                   alt="1973"
                   className="w-full h-auto"
                 />
               </div>
               <div className="w-full md:w-1/2 md:pl-4">
                 <img
-                  src="https://www.whitestoneschool.co.zw/wp-content/uploads/2016/03/21.jpg"
+                  src="https://scontent.fhre1-2.fna.fbcdn.net/v/t39.30808-6/367496869_695931869221060_3697969838340826013_n.jpg?stp=c348.0.823.823a_dst-jpg_s206x206&_nc_cat=109&ccb=1-7&_nc_sid=50ad20&_nc_ohc=0CQW-yeL4PkQ7kNvgGRKn2_&_nc_ht=scontent.fhre1-2.fna&_nc_gid=Akb2B1ocgnkufGKXxVKlKKu&oh=00_AYCFd2BgUzmzCyGQWy9O1Ccrcy8Ug_ortOqpb5w4Ud_wBA&oe=66EC5F6A"
                   alt="School"
                   className="w-full h-auto"
                 />
@@ -133,7 +133,7 @@ const AboutUsPage = () => {
           <aside className="w-full mt-8 lg:w-1/3 lg:mt-0">
             <div className="mb-8">
               <img
-                src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/310808822_477171704430412_61070650227379668_n.jpg?stp=c175.0.864.864a_dst-jpg_s206x206&_nc_cat=102&ccb=1-7&_nc_sid=50ad20&_nc_ohc=gI2nJTw9pswQ7kNvgH2Bl5Y&_nc_ht=scontent-mad1-1.xx&oh=00_AYArP67whmkQL2QDG0-FgPxE1txylK7RXeinro6vDxd6JA&oe=66E9BFF0"
+                src="https://scontent.fhre1-1.fna.fbcdn.net/v/t39.30808-6/310867743_477171637763752_6314302846543255313_n.jpg?stp=c0.143.864.864a_dst-jpg_s206x206&_nc_cat=107&ccb=1-7&_nc_sid=50ad20&_nc_ohc=oBEiLGGkMLwQ7kNvgHs0enS&_nc_ht=scontent.fhre1-1.fna&_nc_gid=AVOJgU73oC3UQfxu4tWZatQ&oh=00_AYC8rEHgb9haDgone_ASZvWiU4ohHMc_co4xsX-5QCmzrA&oe=66EC61AD"
                 alt="School Logo"
                 className="w-full max-w-xs mx-auto"
               />
