@@ -8,7 +8,7 @@ import OurEthosSection from "../Components/OurEthosSection";
 import CollegeValuesSection from "../Components/CollegeValuesSection";
 import Footer from "../Components/Footer";
 import LatestNewsAndEvents from "../Components/LatestNewsAndEvents";
-import WelcomeSection from "../Components/WelcomeSection"
+import WelcomeSection from "../Components/WelcomeSection";
 
 const Hompepage = () => {
   const settings = {
@@ -89,7 +89,7 @@ const Hompepage = () => {
   );
 
   return (
-    <div className="mwPageBlock Gallery">
+    <div className="mwPageBlock Gallery ">
       <div className="blockContents">
         <Slider {...settings} className="sliderEight">
           {slides.map((slide, index) => (
@@ -119,164 +119,65 @@ const Hompepage = () => {
           ))}
         </Slider>
       </div>
-      <WelcomeSection/>
-      {/* <section className="py-10 section-container">
-        <div className="container px-4 mx-auto">
-          <div className="flex flex-col items-start space-y-6 lg:flex-row lg:space-y-0 lg:space-x-10">
-            <div className="flex-1">
-              <div className="p-2 bg-[#006494]  rounded-md shadow-md little-yellow-box">
-                <p className="font-semibold text-white">Welcome to</p>
-              </div>
-              <h2 className="mt-2 text-3xl font-bold text-gray-800 welcome-header">
-                Elroy Foundation Primary School
-              </h2>
-              <div className="mt-4 text-gray-700 welcome-copy">
-                <p>
-                  <strong>
-                    We are so happy to welcome you to Elroy Foundation Primary
-                    School, which serves a richly-diverse community.
-                  </strong>
-                </p>
-                <p>
-                  Elroy Foundation belongs to the Association of Trust Schools
-                  (ATS). The Head and Board Members attend various gatherings,
-                  meetings, and conferences to promote quality education within
-                  our schools.
-                </p>
-                <p>
-                  Elroy Foundation currently enrolls students from ECD up to
-                  Grade 7 for pupils between the ages of 3 to 13. As a member of
-                  ATS and CHISZ, Elroy Foundation School shares the values and
-                  ethos of other like-minded schools.
-                </p>
-              </div>
-              <div className="flex mt-6 space-x-4">
-                <a
-                  className="px-4 py-2 text-white transition duration-300 bg-[#006494] rounded-md shadow fb-btn-reveal--primary-green hover:bg-green-600"
-                  href="https://Elroy Foundationprimary.co.zw/Elroy Foundation-primary-school-about-Elroy Foundation/"
-                >
-                  Read More
-                  <i className="ti-angle-right"></i>
-                </a>
-                <a
-                  className="px-4 py-2 text-white transition duration-300 bg-[#006494]  rounded-md shadow fb-btn-reveal--primary-red hover:bg-red-600"
-                  href="https://Elroy Foundationprimary.co.zw/Elroy Foundation-primary-school-contact/"
-                >
-                  Contact
-                  <i className="ti-angle-right"></i>
-                </a>
-              </div>
-            </div>
-            <div className="flex-1">
-              <img
-                className="h-full rounded-lg shadow-lg "
-                src="https://scontent.fhre2-2.fna.fbcdn.net/v/t39.30808-6/369854368_695931845887729_6742817936632485026_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=2DtMkM7--PMQ7kNvgF61iwl&_nc_ht=scontent.fhre2-2.fna&oh=00_AYAIC6nMK0UH7I6wyELombkcLf7NIN0L1cnmGIutQxHwrw&oe=66CFA8DF"
-                alt="Elroy Foundation Primary School"
-              />
-            </div>
-          </div>
-        </div>
-      </section> */}
+      <WelcomeSection />
+   
 
-      <div className="min-h-screen px-4 py-12 bg-gray-100 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-12 text-center">
-            <span className="inline-block px-3 py-3 mb-10 text-sm font-semibold text-black rounded-full bg-[#006494]">
-              Learning brought to life
-            </span>
-            <h2 className="mb-10 text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              At Elroy Foundation, learning is at the core
-              <br /> of everything we do
-            </h2>
-            <p className="mt-4 text-xl text-gray-500">
-              We are passionate about providing the opportunities to children
-              which allow them to flourish later in life. This means that we
-              support and challenge every single pupil to achieve their very
-              best.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            <Card
-              icon={<School />}
-              title="Education"
-              description="Elroy Foundation offers a holistic Christian education, integrating Cambridge Primary / Checkpoint assessment with our unique curriculum. We focus on core subjects like English, Mathematics, and Science, while nurturing each child's individual talents."
-              link="https://lusitaniaprimary.co.zw/lusitania-primary-school-curriculum/"
-            />
-            <Card
-              icon={<Activity />}
-              title="Activities"
-              description="Our diverse range of activities supports holistic development. From arts and crafts to sports and music, we provide opportunities for students to explore their interests, set goals, and grow personally outside the classroom."
-              link="https://lusitaniaprimary.co.zw/lusitania-primary-school-culture/"
-            />
-            <Card
-              icon={<Users />}
-              title="Staff"
-              description="At Elroy Foundation, our dedicated team embodies our Christian values and commitment to excellence. Our educators create a supportive environment where each child can develop at their own pace, fostering both academic growth and character development."
-              link="https://lusitaniaprimary.co.zw/lusitania-primary-school-our-team/"
-            />
-            <Card
-              icon={<Calendar />}
-              title="Events"
-              description="Join us for a variety of events that showcase our students' achievements and bring our community together. From academic exhibitions to sports days, cultural performances to parent-teacher meetings, our calendar reflects our commitment to holistic education."
-              link="https://lusitaniaprimary.co.zw/event/"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="flex items-center my-20">
-        <div className="flex-grow border-t border-gray-400"></div>
-        <span className="flex-shrink mx-4 font-medium text-gray-400">
-          VIBRANT SCHOOL EXPERIENCE
-        </span>
-        <div className="flex-grow border-t border-gray-400"></div>
-      </div>
-      <div className="flex justify-center mt-20">
-        <div className="-full md:w-1/2 md:h-full">
+<div className="container px-4 mx-auto">
+  <div className="flex items-center my-10 md:my-20">
+    <div className="flex-grow border-t border-gray-400"></div>
+    <span className="flex-shrink mx-2 text-sm font-medium text-center text-gray-400 md:mx-4 md:text-base">
+      VIBRANT SCHOOL EXPERIENCE
+    </span>
+    <div className="flex-grow border-t border-gray-400"></div>
+  </div>
+  <div className="flex flex-col justify-center mt-10 md:flex-row md:mt-20">
+    <div className="w-full mb-6 md:w-1/2 md:mb-0 md:pr-3">
+      <div
+        className="cursor-pointer"
+        onClick={() =>
+          window.open("https://www.stgeorges.co.zw/about-us/", "_blank")
+        }
+      >
+        <div className="relative overflow-hidden transition-transform duration-300 transform hover:scale-105">
           <div
-            className="cursor-pointer"
-            onClick={() =>
-              window.open("https://www.stgeorges.co.zw/about-us/", "_blank")
-            }
+            className="bg-center bg-cover h-[300px] md:h-[530px]"
+            style={{
+              backgroundImage:
+                "url('https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/367461902_695936319220615_6728390917095706423_n.jpg?stp=c216.0.864.864a_dst-jpg_s206x206&_nc_cat=104&ccb=1-7&_nc_sid=50ad20&_nc_ohc=2oyAGCd98XEQ7kNvgGWpl9q&_nc_ht=scontent-mad2-1.xx&_nc_gid=ASRl9wbUZqay6A5UFh8xuoD&oh=00_AYCTLL00Y3TO69S9-xvwqv2yZ3p4Tt4DyGf2gTkgEMx8Gg&oe=66E9C86B')",
+            }}
           >
-           <div className="relative overflow-hidden transition-transform duration-300 transform hover:scale-105">
-  <div
-    className="bg-center bg-cover h-[530px]"
-    style={{
-      backgroundImage:
-        "url('https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/367461902_695936319220615_6728390917095706423_n.jpg?stp=c216.0.864.864a_dst-jpg_s206x206&_nc_cat=104&ccb=1-7&_nc_sid=50ad20&_nc_ohc=2oyAGCd98XEQ7kNvgGWpl9q&_nc_ht=scontent-mad2-1.xx&_nc_gid=ASRl9wbUZqay6A5UFh8xuoD&oh=00_AYCTLL00Y3TO69S9-xvwqv2yZ3p4Tt4DyGf2gTkgEMx8Gg&oe=66E9C86B')",
-    }}
-  >
-    <div className="absolute inset-0 flex flex-col justify-end text-white bg-black bg-opacity-50">
-      <div className="p-4">
-        <a
-          className="relative block overflow-hidden transition-transform transform rounded-lg shadow-lg ha-flip-btn hover:scale-105"
-          href="https://www.stgeorges.co.zw/about-us/"
-        >
-          <div className="ha-hover-box-main">
-            <div className="flex w-full ha-hover-box-wrapper bg-red">
-              <div className="flex flex-col items-start justify-center h-full transition-opacity duration-200 ease-in-out delay-100 ha-hover-box-content z-99">
+            <div className="absolute inset-0 flex flex-col justify-end text-white bg-black bg-opacity-50">
+              <div className="p-4">
                 <a
-                  className="text-lg font-semibold ha-hover-sub-title"
-                  style={{ textAlign: "left" }}
-                  href="/"
+                  className="relative block overflow-hidden transition-transform transform rounded-lg shadow-lg ha-flip-btn hover:scale-105"
+                  href="https://www.stgeorges.co.zw/about-us/"
                 >
-                  Elroy Foundation School
+                  <div className="ha-hover-box-main">
+                    <div className="flex w-full ha-hover-box-wrapper bg-red">
+                      <div className="flex flex-col items-start justify-center h-full transition-opacity duration-200 ease-in-out delay-100 ha-hover-box-content z-99">
+                        <a
+                          className="text-base font-semibold md:text-lg ha-hover-sub-title"
+                          style={{ textAlign: "left" }}
+                          href="/"
+                        >
+                          Elroy Foundation School
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
           </div>
-        </a>
+        </div>
       </div>
+    </div>
+    <div className="w-full md:w-1/2 md:pl-3">
+      <HoverBoxContainer />
     </div>
   </div>
 </div>
-          </div>
-        </div>
-        <HoverBoxContainer />
-      </div>
 
-    
       <OurEthosSection />
       <div className="w-full py-12 mt-20 text-center bg-transparent">
         <div className="max-w-5xl px-4 mx-auto">
@@ -296,11 +197,10 @@ const Hompepage = () => {
           </div>
         </div>
       </div>
-   
 
       <CollegeValuesSection />
       <LatestNewsAndEvents />
-   
+
       <Footer />
     </div>
   );
