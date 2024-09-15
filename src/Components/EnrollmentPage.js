@@ -72,7 +72,7 @@ const EnrollmentPage = () => {
         >
           <div className="flex justify-center mb-4">
             <img
-              src="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/01/windviewprimaryschool.png"
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/302021468_449688623845387_5709386479367275880_n.jpg?stp=dst-jpg_s206x206&_nc_cat=103&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=2S_m8iGXHBwQ7kNvgHeWo0p&_nc_ht=scontent-mad1-1.xx&_nc_gid=AwyTVvIy2wJjpuoVqW-5ma5&oh=00_AYDx1pPuZeR38cwiAstK0R5ttAL9ENBl-A3p6u41d-pFyg&oe=66E9CD03"
               alt="Windview Primary School Logo"
               className="w-48 h-48"
             />
@@ -90,7 +90,7 @@ const EnrollmentPage = () => {
         >
           <div className="flex justify-center mb-4">
             <img
-              src="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/01/windviewprimaryschool.png"
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/302021468_449688623845387_5709386479367275880_n.jpg?stp=dst-jpg_s206x206&_nc_cat=103&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=2S_m8iGXHBwQ7kNvgHeWo0p&_nc_ht=scontent-mad1-1.xx&_nc_gid=AwyTVvIy2wJjpuoVqW-5ma5&oh=00_AYDx1pPuZeR38cwiAstK0R5ttAL9ENBl-A3p6u41d-pFyg&oe=66E9CD03"
               alt="Windview Primary School Logo"
               className="w-48 h-48"
             />
@@ -108,7 +108,7 @@ const EnrollmentPage = () => {
         >
           <div className="flex justify-center mb-4">
             <img
-              src="https://www.windviewprimaryschool.co.zw/wp-content/uploads/2019/01/windviewprimaryschool.png"
+              src="https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/302021468_449688623845387_5709386479367275880_n.jpg?stp=dst-jpg_s206x206&_nc_cat=103&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=2S_m8iGXHBwQ7kNvgHeWo0p&_nc_ht=scontent-mad1-1.xx&_nc_gid=AwyTVvIy2wJjpuoVqW-5ma5&oh=00_AYDx1pPuZeR38cwiAstK0R5ttAL9ENBl-A3p6u41d-pFyg&oe=66E9CD03"
               alt="Windview Primary School Logo"
               className="w-48 h-48"
             />
