@@ -63,7 +63,7 @@ const AboutUsPage = () => {
                 Cyrene Mission during the civil war years.
               </p>
               <p className="mb-4">
-                Whitestone School has been established on 28 hectares of
+              Elroy Foundation  School has been established on 28 hectares of
                 attractive granite kopje countryside in the southern Bulawayo
                 suburb of Burnside. The school site is rich in a wide variety of
                 indigenous flora and fauna and offers endless opportunity for
@@ -92,7 +92,7 @@ const AboutUsPage = () => {
 
             <h3 className="mb-4 text-2xl font-bold">School Objectives</h3>
             <p className="mb-4">
-              At Whitestone we believe it important not only to teach the
+              At Elroy Foundation school we believe it important not only to teach the
               children virtues such as honesty, humility, self-discipline,
               concern for others and good manners, but also to encourage each
               individual to discover and develop their unique qualities and
@@ -109,7 +109,7 @@ const AboutUsPage = () => {
 
             <h3 className="mb-4 text-2xl font-bold">Discipline</h3>
             <p className="mb-4">
-              A firm and fair system of discipline is part of the Whitestone
+              A firm and fair system of discipline is part of the Elroy Foundation 
               philosophy and it is considered as a shared responsibility between
               home and school.
             </p>
